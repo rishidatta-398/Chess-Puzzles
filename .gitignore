@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# puzzle build scratch
+.build-tmp
+.games-build.log

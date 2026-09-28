@@ -1,0 +1,591 @@
+{
+  "version": 2,
+  "source": "Lichess puzzle database (CC0), https://database.lichess.org/#puzzles",
+  "builtAt": "2026-09-27T19:24:19.167Z",
+  "filters": {
+    "minPopularity": 80,
+    "minPlays": 200,
+    "maxRatingDeviation": 90
+  },
+  "perFile": 8000,
+  "total": 479932,
+  "phases": {
+    "opening": 117623,
+    "middlegame": 178692,
+    "endgame": 183617
+  },
+  "buckets": [
+    {
+      "min": 400,
+      "max": 499,
+      "count": 6119,
+      "files": {
+        "opening": {
+          "file": "r0400-opening.json",
+          "count": 74
+        },
+        "middlegame": {
+          "file": "r0400-middlegame.json",
+          "count": 2536
+        },
+        "endgame": {
+          "file": "r0400-endgame.json",
+          "count": 3509
+        }
+      }
+    },
+    {
+      "min": 500,
+      "max": 599,
+      "count": 16432,
+      "files": {
+        "opening": {
+          "file": "r0500-opening.json",
+          "count": 931
+        },
+        "middlegame": {
+          "file": "r0500-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r0500-endgame.json",
+          "count": 7501
+        }
+      }
+    },
+    {
+      "min": 600,
+      "max": 699,
+      "count": 17860,
+      "files": {
+        "opening": {
+          "file": "r0600-opening.json",
+          "count": 1860
+        },
+        "middlegame": {
+          "file": "r0600-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r0600-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 700,
+      "max": 799,
+      "count": 19424,
+      "files": {
+        "opening": {
+          "file": "r0700-opening.json",
+          "count": 3424
+        },
+        "middlegame": {
+          "file": "r0700-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r0700-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 800,
+      "max": 899,
+      "count": 22026,
+      "files": {
+        "opening": {
+          "file": "r0800-opening.json",
+          "count": 6026
+        },
+        "middlegame": {
+          "file": "r0800-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r0800-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 900,
+      "max": 999,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r0900-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r0900-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r0900-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 1000,
+      "max": 1099,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r1000-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r1000-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r1000-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 1100,
+      "max": 1199,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r1100-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r1100-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r1100-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 1200,
+      "max": 1299,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r1200-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r1200-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r1200-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 1300,
+      "max": 1399,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r1300-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r1300-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r1300-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 1400,
+      "max": 1499,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r1400-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r1400-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r1400-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 1500,
+      "max": 1599,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r1500-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r1500-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r1500-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 1600,
+      "max": 1699,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r1600-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r1600-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r1600-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 1700,
+      "max": 1799,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r1700-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r1700-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r1700-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 1800,
+      "max": 1899,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r1800-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r1800-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r1800-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 1900,
+      "max": 1999,
+      "count": 24000,
+      "files": {
+        "opening": {
+          "file": "r1900-opening.json",
+          "count": 8000
+        },
+        "middlegame": {
+          "file": "r1900-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r1900-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 2000,
+      "max": 2099,
+      "count": 22001,
+      "files": {
+        "opening": {
+          "file": "r2000-opening.json",
+          "count": 6001
+        },
+        "middlegame": {
+          "file": "r2000-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r2000-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 2100,
+      "max": 2199,
+      "count": 20766,
+      "files": {
+        "opening": {
+          "file": "r2100-opening.json",
+          "count": 4766
+        },
+        "middlegame": {
+          "file": "r2100-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r2100-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 2200,
+      "max": 2299,
+      "count": 18956,
+      "files": {
+        "opening": {
+          "file": "r2200-opening.json",
+          "count": 2956
+        },
+        "middlegame": {
+          "file": "r2200-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r2200-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 2300,
+      "max": 2399,
+      "count": 18058,
+      "files": {
+        "opening": {
+          "file": "r2300-opening.json",
+          "count": 2058
+        },
+        "middlegame": {
+          "file": "r2300-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r2300-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 2400,
+      "max": 2499,
+      "count": 16935,
+      "files": {
+        "opening": {
+          "file": "r2400-opening.json",
+          "count": 935
+        },
+        "middlegame": {
+          "file": "r2400-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r2400-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 2500,
+      "max": 2599,
+      "count": 16418,
+      "files": {
+        "opening": {
+          "file": "r2500-opening.json",
+          "count": 418
+        },
+        "middlegame": {
+          "file": "r2500-middlegame.json",
+          "count": 8000
+        },
+        "endgame": {
+          "file": "r2500-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 2600,
+      "max": 2699,
+      "count": 13676,
+      "files": {
+        "opening": {
+          "file": "r2600-opening.json",
+          "count": 149
+        },
+        "middlegame": {
+          "file": "r2600-middlegame.json",
+          "count": 5527
+        },
+        "endgame": {
+          "file": "r2600-endgame.json",
+          "count": 8000
+        }
+      }
+    },
+    {
+      "min": 2700,
+      "max": 2799,
+      "count": 6625,
+      "files": {
+        "opening": {
+          "file": "r2700-opening.json",
+          "count": 25
+        },
+        "middlegame": {
+          "file": "r2700-middlegame.json",
+          "count": 2445
+        },
+        "endgame": {
+          "file": "r2700-endgame.json",
+          "count": 4155
+        }
+      }
+    },
+    {
+      "min": 2800,
+      "max": 2899,
+      "count": 564,
+      "files": {
+        "middlegame": {
+          "file": "r2800-middlegame.json",
+          "count": 166
+        },
+        "endgame": {
+          "file": "r2800-endgame.json",
+          "count": 398
+        }
+      }
+    },
+    {
+      "min": 2900,
+      "max": 2999,
+      "count": 69,
+      "files": {
+        "middlegame": {
+          "file": "r2900-middlegame.json",
+          "count": 18
+        },
+        "endgame": {
+          "file": "r2900-endgame.json",
+          "count": 51
+        }
+      }
+    },
+    {
+      "min": 3000,
+      "max": 3099,
+      "count": 3,
+      "files": {
+        "endgame": {
+          "file": "r3000-endgame.json",
+          "count": 3
+        }
+      }
+    }
+  ],
+  "themes": {
+    "short": 221835,
+    "endgame": 183617,
+    "middlegame": 178692,
+    "crushing": 177335,
+    "advantage": 161924,
+    "mate": 137573,
+    "long": 134137,
+    "opening": 117623,
+    "oneMove": 73107,
+    "mateIn1": 73007,
+    "fork": 62956,
+    "master": 60293,
+    "mateIn2": 47917,
+    "veryLong": 47814,
+    "kingsideAttack": 45482,
+    "sacrifice": 38799,
+    "defensiveMove": 31348,
+    "pin": 31156,
+    "advancedPawn": 27321,
+    "discoveredAttack": 27312,
+    "quietMove": 21395,
+    "rookEndgame": 19649,
+    "deflection": 19226,
+    "hangingPiece": 19039,
+    "attraction": 18973,
+    "pawnEndgame": 17486,
+    "exposedKing": 15053,
+    "mateIn3": 12830,
+    "backRankMate": 10072,
+    "discoveredCheck": 9975,
+    "promotion": 9415,
+    "attackingF2F7": 8947,
+    "skewer": 8650,
+    "trappedPiece": 8044,
+    "clearance": 7433,
+    "intermezzo": 7141,
+    "queensideAttack": 6885,
+    "bishopEndgame": 6011,
+    "masterVsMaster": 5420,
+    "zugzwang": 5190,
+    "operaMate": 4446,
+    "pillsburysMate": 4368,
+    "capturingDefender": 4286,
+    "queenEndgame": 4103,
+    "knightEndgame": 3656,
+    "doubleCheck": 3376,
+    "smotheredMate": 2976,
+    "mateIn4": 2818,
+    "queenRookEndgame": 2184,
+    "interference": 2072,
+    "epauletteMate": 1869,
+    "xRayAttack": 1401,
+    "mateIn5": 1001,
+    "enPassant": 899,
+    "swallowstailMate": 863,
+    "cornerMate": 852,
+    "collinearMove": 642,
+    "hookMate": 614,
+    "anastasiaMate": 587,
+    "arabianMate": 585,
+    "morphysMate": 474,
+    "bodenMate": 455,
+    "triangleMate": 447,
+    "doubleBishopMate": 380,
+    "killBoxMate": 363,
+    "castling": 361,
+    "dovetailMate": 344,
+    "blindSwineMate": 297,
+    "superGM": 280,
+    "vukovicMate": 159,
+    "underPromotion": 127,
+    "balestraMate": 123,
+    "equality": 61
+  }
+}

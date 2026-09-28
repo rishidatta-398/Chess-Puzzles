@@ -1,0 +1,263 @@
+{
+  "version": 1,
+  "builtAt": "2026-09-27T19:54:40.188Z",
+  "players": [
+    {
+      "id": "nakamura",
+      "name": "Hikaru Nakamura",
+      "surname": "Nakamura",
+      "file": "nakamura.json",
+      "count": 10220,
+      "from": "1997",
+      "to": "2026"
+    },
+    {
+      "id": "carlsen",
+      "name": "Magnus Carlsen",
+      "surname": "Carlsen",
+      "file": "carlsen.json",
+      "count": 7818,
+      "from": "2001",
+      "to": "2026"
+    },
+    {
+      "id": "caruana",
+      "name": "Fabiano Caruana",
+      "surname": "Caruana",
+      "file": "caruana.json",
+      "count": 6499,
+      "from": "2002",
+      "to": "2026"
+    },
+    {
+      "id": "anand",
+      "name": "Viswanathan Anand",
+      "surname": "Anand",
+      "file": "anand.json",
+      "count": 4310,
+      "from": "1984",
+      "to": "2026"
+    },
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "surname": "Karpov",
+      "file": "karpov.json",
+      "count": 3529,
+      "from": "1961",
+      "to": "2022"
+    },
+    {
+      "id": "tal",
+      "name": "Mikhail Tal",
+      "surname": "Tal",
+      "file": "tal.json",
+      "count": 2431,
+      "from": "1952",
+      "to": "1992"
+    },
+    {
+      "id": "gukesh",
+      "name": "Gukesh Dommaraju",
+      "surname": "Gukesh",
+      "file": "gukesh.json",
+      "count": 2402,
+      "from": "2015",
+      "to": "2026"
+    },
+    {
+      "id": "ding",
+      "name": "Ding Liren",
+      "surname": "Ding",
+      "file": "ding.json",
+      "count": 2274,
+      "from": "2001",
+      "to": "2026"
+    },
+    {
+      "id": "kasparov",
+      "name": "Garry Kasparov",
+      "surname": "Kasparov",
+      "file": "kasparov.json",
+      "count": 2128,
+      "from": "1976",
+      "to": "2021"
+    },
+    {
+      "id": "fischer",
+      "name": "Bobby Fischer",
+      "surname": "Fischer",
+      "file": "fischer.json",
+      "count": 827,
+      "from": "1955",
+      "to": "1992"
+    },
+    {
+      "id": "capablanca",
+      "name": "José Raúl Capablanca",
+      "surname": "Capablanca",
+      "file": "capablanca.json",
+      "count": 597,
+      "from": "1901",
+      "to": "1941"
+    },
+    {
+      "id": "morphy",
+      "name": "Paul Morphy",
+      "surname": "Morphy",
+      "file": "morphy.json",
+      "count": 211,
+      "from": "1848",
+      "to": "1866"
+    }
+  ],
+  "famous": [
+    {
+      "id": "game-of-the-century",
+      "title": "The Game of the Century",
+      "note": "13-year-old Bobby Fischer sacrifices his queen against Donald Byrne and hunts down the king with his minor pieces.",
+      "player": "fischer",
+      "gameId": "1tr4fr6"
+    },
+    {
+      "id": "opera-game",
+      "title": "The Opera Game",
+      "note": "Played in a box at the Paris opera. Morphy develops fast, sacrifices, and finishes with a textbook mating attack.",
+      "player": "morphy",
+      "gameId": "1j25vyd"
+    },
+    {
+      "id": "kasparov-immortal",
+      "title": "Kasparov's Immortal",
+      "note": "Kasparov gives up a rook with 24.Rxd4 and chases Topalov’s king across the board in one of the deepest combinations ever played.",
+      "player": "kasparov",
+      "gameId": "br6t14"
+    },
+    {
+      "id": "fischer-spassky-6",
+      "title": "Fischer vs Spassky, 1972 Game 6",
+      "note": "Fischer opens 1.c4 for a rare Queen’s Gambit and plays so smoothly that Spassky applauds at the end.",
+      "player": "fischer",
+      "gameId": "bzyt9i"
+    },
+    {
+      "id": "capablanca-marshall-1918",
+      "title": "Capablanca vs Marshall, 1918",
+      "note": "Marshall unveils his prepared gambit, the Marshall Attack. Capablanca defends calmly and wins.",
+      "player": "capablanca",
+      "gameId": "1ybdv5q"
+    },
+    {
+      "id": "karpov-kasparov-16",
+      "title": "Karpov vs Kasparov, 1985 Game 16",
+      "note": "Kasparov’s knight on d3 paralyses White. A key win on his way to becoming world champion.",
+      "player": "kasparov",
+      "gameId": "1vufyjd"
+    },
+    {
+      "id": "carlsen-ernst-2004",
+      "title": "Carlsen vs Ernst, 2004",
+      "note": "A 13-year-old Magnus Carlsen sacrifices his way to a mating attack at Wijk aan Zee.",
+      "player": "carlsen",
+      "gameId": "gk7pdy"
+    },
+    {
+      "id": "aronian-anand-2013",
+      "title": "Aronian vs Anand, 2013",
+      "note": "Anand, with Black, launches a stunning series of sacrifices. Often called the best game of his career.",
+      "player": "anand",
+      "gameId": "hi4s3c"
+    },
+    {
+      "id": "ding-gukesh-14",
+      "title": "Ding vs Gukesh, 2024 Game 14",
+      "note": "The last classical game of the 2024 World Championship. Heading for a draw, Ding blunders with 55.Rf2 and Gukesh becomes the youngest world champion.",
+      "player": "gukesh",
+      "gameId": "xy1c2x"
+    },
+    {
+      "id": "byrne-fischer-1963",
+      "title": "R. Byrne vs Fischer, 1963",
+      "note": "Fischer sacrifices with 15...Nxf2 in the US Championship. Byrne resigned while commentators still thought White was fine.",
+      "player": "fischer",
+      "gameId": "wefmi8"
+    },
+    {
+      "id": "paulsen-morphy-1857",
+      "title": "Paulsen vs Morphy, 1857",
+      "note": "Morphy gives up his queen with 17...Qxf3 for a crushing attack at the First American Chess Congress.",
+      "player": "morphy",
+      "gameId": "koggvx"
+    },
+    {
+      "id": "botvinnik-tal-1960-6",
+      "title": "Botvinnik vs Tal, 1960 Game 6",
+      "note": "Tal’s knight sacrifice 21...Nf4 throws the world champion into chaos. Tal went on to win the title.",
+      "player": "tal",
+      "gameId": "1lyis93"
+    },
+    {
+      "id": "tal-larsen-1965",
+      "title": "Tal vs Larsen, 1965",
+      "note": "The deciding game of their Candidates match. Tal’s speculative 16.Nd5 sacrifice is one of the most debated moves in chess history.",
+      "player": "tal",
+      "gameId": "1ido2u9"
+    },
+    {
+      "id": "capablanca-tartakower-1924",
+      "title": "Capablanca vs Tartakower, 1924",
+      "note": "A classic rook endgame: Capablanca gives up pawns so his king can march in. Still taught as a model of endgame technique.",
+      "player": "capablanca",
+      "gameId": "1rwkbhm"
+    },
+    {
+      "id": "karpov-kasparov-24",
+      "title": "Karpov vs Kasparov, 1985 Game 24",
+      "note": "The last game of the 1985 match. Kasparov wins with Black and becomes the youngest world champion at the time.",
+      "player": "kasparov",
+      "gameId": "cgofu9"
+    },
+    {
+      "id": "topalov-anand-2010-12",
+      "title": "Topalov vs Anand, 2010 Game 12",
+      "note": "The final game of the 2010 World Championship. Anand wins with Black to keep his title.",
+      "player": "anand",
+      "gameId": "1jp0mbi"
+    },
+    {
+      "id": "carlsen-anand-2013-5",
+      "title": "Carlsen vs Anand, 2013 Game 5",
+      "note": "Carlsen’s first win in his World Championship match against Anand, grinding out a long endgame. He won the title a few games later.",
+      "player": "carlsen",
+      "gameId": "8qqjbv"
+    },
+    {
+      "id": "carlsen-karjakin-2016-tb4",
+      "title": "Carlsen vs Karjakin, 2016 Tiebreak",
+      "note": "The last tiebreak game of the 2016 World Championship ends with the queen sacrifice 50.Qh6+. Carlsen keeps his title.",
+      "player": "carlsen",
+      "gameId": "1g0ueve"
+    },
+    {
+      "id": "carlsen-caruana-2014",
+      "title": "Carlsen vs Caruana, 2014",
+      "note": "Part of Caruana’s famous 7-0 start at the 2014 Sinquefield Cup, one of the greatest tournament runs ever.",
+      "player": "caruana",
+      "gameId": "b4izik"
+    },
+    {
+      "id": "nepo-ding-2023-tb4",
+      "title": "Nepomniachtchi vs Ding, 2023 Tiebreak",
+      "note": "The final rapid tiebreak game of the 2023 World Championship. Ding wins with Black and becomes China’s first men’s world champion.",
+      "player": "ding",
+      "gameId": "1xg671i"
+    },
+    {
+      "id": "gukesh-ding-2024-3",
+      "title": "Gukesh vs Ding, 2024 Game 3",
+      "note": "After losing the first game, Gukesh strikes back for his first World Championship win to level the match.",
+      "player": "gukesh",
+      "gameId": "6x89ke"
+    }
+  ]
+}

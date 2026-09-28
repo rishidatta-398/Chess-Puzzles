@@ -11,6 +11,10 @@ type Props = {
   lastMove?: { from: string; to: string } | null
   /** Set false to lock the board (e.g. while the opponent is replying). */
   interactive?: boolean
+  /** Square to highlight as a hint. */
+  hintSquare?: string | null
+  /** Arrows to draw, e.g. the engine's best move. */
+  arrows?: { startSquare: string; endSquare: string; color: string }[]
 }
 
 const COLORS = {
@@ -21,9 +25,10 @@ const COLORS = {
   check: 'radial-gradient(circle, rgba(230,40,40,0.9) 0%, rgba(230,40,40,0.35) 55%, transparent 75%)',
   dot: 'radial-gradient(circle, rgba(0,0,0,0.22) 22%, transparent 24%)',
   ring: 'radial-gradient(circle, transparent 62%, rgba(0,0,0,0.22) 64%)',
+  hint: 'rgba(40, 120, 255, 0.45)',
 }
 
-export function PlayableBoard({ fen, orientation, onMove, lastMove, interactive = true }: Props) {
+export function PlayableBoard({ fen, orientation, onMove, lastMove, interactive = true, hintSquare = null, arrows }: Props) {
   const [selected, setSelected] = useState<string | null>(null)
   const [selectedFen, setSelectedFen] = useState(fen)
 
@@ -49,13 +54,14 @@ export function PlayableBoard({ fen, orientation, onMove, lastMove, interactive 
         .find((p) => p && p.type === 'k' && p.color === game.turn())
       if (king) styles[king.square] = { background: COLORS.check }
     }
+    if (hintSquare) styles[hintSquare] = { background: COLORS.hint, boxShadow: 'inset 0 0 0 3px rgba(40,120,255,0.9)' }
     if (selected) styles[selected] = { background: COLORS.selected }
     for (const t of targets) {
       const occupied = game.get(t as Square)
       styles[t] = { ...styles[t], backgroundImage: occupied ? COLORS.ring : COLORS.dot }
     }
     return styles
-  }, [fen, lastMove, selected, targets])
+  }, [fen, lastMove, selected, targets, hintSquare])
 
   function attempt(from: string, to: string): boolean {
     const ok = onMove(from, to)
@@ -88,9 +94,13 @@ export function PlayableBoard({ fen, orientation, onMove, lastMove, interactive 
           boardOrientation: orientation,
           allowDragging: interactive,
           squareStyles,
+          // Engine arrows replace hand-drawn ones; other boards keep right-click arrow drawing.
+          ...(arrows ? { arrows, allowDrawingArrows: false } : {}),
           lightSquareStyle: { backgroundColor: COLORS.light },
           darkSquareStyle: { backgroundColor: COLORS.dark },
           animationDurationInMs: 180,
+          // Hide the faded copy left on the starting square while dragging.
+          draggingPieceGhostStyle: { opacity: 0 },
           onSquareClick: handleSquareClick,
           onPieceDrop: handleDrop,
           canDragPiece: ({ square }) => interactive && !!square && legalTargets(fen, square).length > 0,
